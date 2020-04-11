@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded',() => {
   var currentPlayer = 1;
 
   for(var i =0;i<squares.length;i++){
-  (function(index)){
+  (function(index){
     //Adding a onclick listener for every square
     squares[index].onclick = function(){
       //if the square below the current square is taken, you can go ontop of it
